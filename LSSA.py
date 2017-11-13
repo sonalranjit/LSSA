@@ -90,7 +90,7 @@ for i in range(len(fq)):
 #    lhat = np.dot(A,xhat)
 #    s[i] = np.power(np.dot(np.dot(np.linalg.inv(np.dot(np.transpose(l),lhat)),np.transpose(l)),l),2)
 '''
-print 'DONE'
+print('DONE')
 plt.figure(1)
 plt.plot(fq,s)
 plt.show()
